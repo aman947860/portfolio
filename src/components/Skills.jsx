@@ -32,47 +32,39 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: "Languages",
+      title: "Languages & Frontend",
       color: "from-blue-500 to-blue-600",
       skills: [
-        { name: "C", level: 85 },
-        { name: "C++", level: 90 },
-        { name: "Java", level: 88 },
-        { name: "Python", level: 92 },
         { name: "JavaScript", level: 95 },
-        { name: "TypeScript", level: 88 },
-        { name: "HTML/CSS", level: 90 }
+        { name: "Python", level: 90 },
+        { name: "C++", level: 88 },
+        { name: "React.js", level: 92 },
+        { name: "Tailwind CSS", level: 90 },
+        { name: "HTML5 / CSS3", level: 90 }
       ]
     },
     {
-      title: "Frameworks",
+      title: "Backend & Databases",
       color: "from-green-500 to-green-600",
       skills: [
-        { name: "React.js", level: 95 },
-        { name: "Node.js", level: 88 },
-        { name: "Express.js", level: 85 },
-        { name: "Spring Boot", level: 80 },
-        { name: "Tailwind CSS", level: 92 },
-        { name: "Bootstrap", level: 85 },
-        { name: "Material UI", level: 88 },
-        { name: "Chrome Extensions", level: 82 }
+        { name: "Node.js", level: 90 },
+        { name: "Express.js", level: 88 },
+        { name: "REST APIs", level: 90 },
+        { name: "Socket.io", level: 88 },
+        { name: "MongoDB", level: 88 },
+        { name: "DynamoDB", level: 86 }
       ]
     },
     {
-      title: "Databases",
+      title: "Cloud, AI & Security",
       color: "from-purple-500 to-purple-600",
       skills: [
-        { name: "MongoDB", level: 90 },
-        { name: "DynamoDB", level: 85 }
-      ]
-    },
-    {
-      title: "Cloud & DevOps",
-      color: "from-orange-500 to-orange-600",
-      skills: [
-        { name: "AWS (S3, Lambda, SES)", level: 85 },
-        { name: "Git", level: 92 },
-        { name: "GitHub", level: 90 }
+        { name: "AWS Lambda / S3 / SES", level: 88 },
+        { name: "OpenAI API / Voice Agent", level: 90 },
+        { name: "Gemini API", level: 85 },
+        { name: "JWT", level: 88 },
+        { name: "Bcrypt", level: 86 },
+        { name: "Git", level: 92 }
       ]
     }
   ];

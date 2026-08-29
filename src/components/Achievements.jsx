@@ -34,44 +34,44 @@ const Achievements = () => {
   const achievements = [
     {
       title: "Indian Air Force Selection",
-      year: "2021",
-      description: "Successfully cleared the rigorous selection process for the Indian Air Force, demonstrating leadership, physical fitness, and mental resilience.",
+      year: "Feb 2021",
+      description: "Selected for the Indian Air Force in February 2021, reflecting exceptional physical fitness, discipline, and national-level merit.",
       icon: FaFlag,
       color: "from-blue-500 to-blue-600",
-      category: "Military Service",
+      category: "National Merit",
       details: [
-        "Cleared initial screening and medical examinations",
-        "Demonstrated exceptional leadership qualities",
-        "Passed physical fitness and aptitude tests",
-        "Selected among thousands of applicants"
+        "Selected after a rigorous national process",
+        "Demonstrated physical fitness and discipline",
+        "National-level merit recognition",
+        "Leadership under high standards"
       ]
     },
     {
       title: "All India Rank 103 - IMO",
       year: "2017",
-      description: "Achieved All India Rank 103 in the International Mathematics Olympiad, showcasing exceptional mathematical problem-solving abilities.",
+      description: "Secured All-India Rank 103 in the International Mathematics Olympiad (IMO), 2017, reflecting advanced analytical ability.",
       icon: FaTrophy,
       color: "from-yellow-500 to-orange-600",
       category: "Academic Excellence",
       details: [
-        "Ranked among top 0.1% of participants nationwide",
-        "Demonstrated advanced mathematical reasoning",
-        "Competed against thousands of students",
-        "Recognized for exceptional problem-solving skills"
+        "AIR 103 in IMO 2017",
+        "Strong mathematical and analytical reasoning",
+        "National competitive ranking",
+        "Foundation for engineering problem-solving"
       ]
     },
     {
       title: "Cricket Captain - IIIT Bhopal",
-      year: "2021-2025",
-      description: "Leading the cricket team at IIIT Bhopal with notable achievements including Silver at IIM Indore and Bronze at IIIT Gwalior tournaments.",
+      year: "2022",
+      description: "Captained the IIIT Bhopal Cricket Team to a Silver Medal at IIM Indore Sports Fest (2022) and a Bronze Medal at the Inter-IIIT Sports Meet at IIIT Gwalior.",
       icon: FaFutbol,
       color: "from-green-500 to-green-600",
       category: "Sports Leadership",
       details: [
-        "Silver Medal - IIM Indore Cricket Tournament",
-        "Bronze Medal - IIIT Gwalior Cricket Tournament",
-        "Led team to multiple tournament victories",
-        "Demonstrated leadership and team management skills"
+        "Silver Medal — IIM Indore Sports Fest (2022)",
+        "Bronze Medal — Inter-IIIT Sports Meet, IIIT Gwalior",
+        "Team captaincy and match leadership",
+        "Discipline, fitness, and collaborative performance under pressure"
       ]
     }
   ];
@@ -194,7 +194,7 @@ const Achievements = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="text-3xl font-bold text-blue-400 mb-2">B.Tech IT</div>
-                <div className="text-gray-300 text-sm">IIIT Bhopal (2021-2025)</div>
+                <div className="text-gray-300 text-sm">IIIT Bhopal · Graduated 2025</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-green-400 mb-2">Active Learner</div>

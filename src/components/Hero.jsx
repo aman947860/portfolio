@@ -91,15 +91,15 @@ const Hero = () => {
           variants={itemVariants}
           className="text-xl sm:text-2xl lg:text-3xl text-gray-300 mb-8 font-light"
         >
-          Software Developer | Full-Stack | AI Enthusiast
+          Software Developer | Full-Stack | AI Systems
         </motion.h2>
 
         <motion.p
           variants={itemVariants}
           className="text-lg sm:text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed"
         >
-          B.Tech IT student at IIIT Bhopal passionate about building innovative solutions 
-          with modern technologies. Currently interning as a Software Developer at RedyHire.
+          B.Tech IT graduate from IIIT Bhopal. Building AI-driven hiring products at RedyHire —
+          voice interview agents, AWS automation, DynamoDB search, and real-time systems with Socket.io.
         </motion.p>
 
         <motion.div
@@ -149,12 +149,12 @@ const Hero = () => {
             variants={buttonVariants}
             whileHover="hover"
             whileTap="tap"
-            href="https://drive.google.com/file/d/18Kgh87G3roNpz7P1A8V2rsbAXiehpqnM/view?usp=drive_link"
+            href={`${import.meta.env.BASE_URL}Aman_Singh_Resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium transition-colors duration-200"
           >
-            <FaCode className="text-lg" />
+            <FaFileDownload className="text-lg" />
             Resume
           </motion.a>
         </motion.div>

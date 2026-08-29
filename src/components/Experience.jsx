@@ -34,18 +34,35 @@ const Experience = () => {
   const experiences = [
     {
       company: "RedyHire",
-      position: "Software Developer Intern",
-      duration: "2025 – Present",
-      location: "Remote",
-      description: "Working as a Software Developer Intern, contributing to the development of innovative hiring solutions.",
+      position: "Software Developer",
+      duration: "May 2025 – Present",
+      location: "Bangalore",
+      description:
+        "Building AI-driven hiring workflows — voice interviews, bulk question ingestion, candidate search, and email automation on AWS.",
       achievements: [
-        "Developed Dynamic Mail Template system for automated email communications",
-        "Built Referrer Tracking Form with real-time analytics and reporting",
-        "Created Chrome Extension automation tools to streamline recruitment processes",
-        "Collaborated with cross-functional teams to deliver high-quality software solutions",
-        "Implemented modern web technologies including React.js, Node.js, and cloud services"
+        "Engineered an AI voice interview agent with the OpenAI Voice Agent for real-time conversational interviews, cutting manual screening effort by ~60%.",
+        "Reduced hallucination and token usage (~40%) by summarizing interview context every 30 minutes while keeping the agent grounded.",
+        "Designed configurable interview flows so recruiters can use a coding-question bank or add custom questions for the agent.",
+        "Automated post-interview scoring with AWS Lambda + AI evaluation, reducing manual review time by ~50%.",
+        "Maintained persistent low-latency Socket.io connections for uninterrupted interview sessions up to 60 minutes.",
+        "Automated bulk question ingestion from Excel/Word via AWS S3 and Lambda, cutting manual upload time by ~70%.",
+        "Parsed unstructured Word documents into structured JSON with OpenAI prompts and AI-based validation before DB persistence.",
+        "Delivered cross-job candidate search by email/phone using DynamoDB GSIs (businessUnitId + email/phone), cutting lookup time from minutes to seconds.",
+        "Launched a self-service email template builder on DynamoDB and integrated AWS SES for reliable bulk outreach."
       ],
-      technologies: ["React.js", "Node.js", "JavaScript", "Google Custom Search API", "RESTful APIs", "Gemini API", "Chrome Extensions", "Dynmodb", "S3", "AWS"]
+      technologies: [
+        "OpenAI Voice Agent",
+        "OpenAI API",
+        "Gemini API",
+        "Node.js",
+        "Socket.io",
+        "AWS Lambda",
+        "S3",
+        "SES",
+        "DynamoDB",
+        "JWT",
+        "JavaScript"
+      ]
     }
   ];
 
@@ -198,8 +215,8 @@ const Experience = () => {
                 </div>
 
                 <p className="text-gray-300 mb-4 leading-relaxed">
-                  Pursuing Bachelor of Technology in Information Technology with focus on software development, 
-                  data structures, algorithms, and modern web technologies.
+                  Bachelor of Technology in Information Technology (Dec 2021 – June 2025).
+                  Prior schooling at Allahabad Public School, Prayagraj — High School 95%, Intermediate 81%.
                 </p>
 
                 <div className="flex flex-wrap gap-2">

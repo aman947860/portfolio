@@ -63,11 +63,10 @@ const Footer = () => {
           >
             <h3 className="text-2xl font-bold text-white">Aman Singh</h3>
             <p className="text-gray-400 leading-relaxed">
-              Software Developer | Full-Stack | AI Enthusiast
+              Software Developer | Full-Stack | AI Systems
             </p>
             <p className="text-gray-400 text-sm">
-              B.Tech IT student at IIIT Bhopal passionate about building innovative solutions 
-              with modern technologies.
+              IIIT Bhopal IT graduate building AI hiring products, real-time apps, and AWS-backed systems at RedyHire.
             </p>
           </motion.div>
 

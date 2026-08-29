@@ -3,7 +3,6 @@ import profileImg from '../assets/profile.jpeg';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import profile from '../assets/profile.jpeg';
 
 const About = () => {
   const ref = useRef(null);
@@ -93,26 +92,26 @@ const About = () => {
               variants={itemVariants}
               className="text-lg text-gray-300 leading-relaxed"
             >
-              I'm a passionate software developer currently pursuing my B.Tech in Information Technology 
-              at IIIT Bhopal (2021-2025). My journey in technology began with a fascination for solving 
-              complex problems through code.
+              I'm a software developer based in Vibhutipura, Bangalore. I completed my B.Tech in
+              Information Technology at IIIT Bhopal (Dec 2021 – June 2025) and focus on shipping
+              reliable full-stack and AI-backed product features.
             </motion.p>
 
             <motion.p
               variants={itemVariants}
               className="text-lg text-gray-300 leading-relaxed"
             >
-              Currently, I'm working as a Software Developer Intern at <span className="text-blue-400 font-semibold">RedyHire</span>, 
-              where I'm gaining hands-on experience in building scalable web applications and working with 
-              modern development frameworks.
+              At <span className="text-blue-400 font-semibold">RedyHire</span> (May 2025 – Present),
+              I work as a Software Developer on AI interviewing, bulk question ingestion, candidate
+              search on DynamoDB, and dynamic email templates with AWS SES.
             </motion.p>
 
             <motion.p
               variants={itemVariants}
               className="text-lg text-gray-300 leading-relaxed"
             >
-              My interests span across full-stack development, artificial intelligence, and cloud computing. 
-              I love exploring new technologies and building innovative solutions that make a real impact.
+              My stack centers on JavaScript, Python, C++, React, Node.js/Express, Socket.io,
+              MongoDB/DynamoDB, and AWS (Lambda, S3, SES), plus OpenAI and Gemini APIs.
             </motion.p>
 
             <motion.div
@@ -121,15 +120,15 @@ const About = () => {
             >
               <div className="bg-gray-700 px-4 py-2 rounded-lg">
                 <span className="text-blue-400 font-semibold">Education:</span>
-                <span className="text-gray-300 ml-2">IIIT Bhopal (2021-2025)</span>
+                <span className="text-gray-300 ml-2">IIIT Bhopal (2021–2025)</span>
               </div>
               <div className="bg-gray-700 px-4 py-2 rounded-lg">
                 <span className="text-green-400 font-semibold">Current Role:</span>
-                <span className="text-gray-300 ml-2">Software Developer Intern</span>
+                <span className="text-gray-300 ml-2">Software Developer</span>
               </div>
               <div className="bg-gray-700 px-4 py-2 rounded-lg">
                 <span className="text-purple-400 font-semibold">Company:</span>
-                <span className="text-gray-300 ml-2">RedyHire</span>
+                <span className="text-gray-300 ml-2">RedyHire · Bangalore</span>
               </div>
             </motion.div>
           </motion.div>

@@ -48,9 +48,33 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "Chatify - Real-time Chat App",
+      tagline: "MERN + Socket.io messaging",
+      description: "Full-stack real-time chat on the MERN stack with Socket.io, JWT auth, Bcrypt password hashing, and a responsive React + Tailwind UI for desktop and mobile.",
+      image: "/api/placeholder/600/400",
+      liveUrl: "https://chatify-ampo.onrender.com/",
+      githubUrl: "https://github.com/aman947860/chatify",
+      technologies: [
+        { name: "React.js", icon: FaReact, color: "text-blue-400" },
+        { name: "Node.js", icon: FaNodeJs, color: "text-green-400" },
+        { name: "MongoDB", icon: SiMongodb, color: "text-green-500" },
+        { name: "Socket.io", icon: SiSocketdotio, color: "text-white" },
+        { name: "Tailwind CSS", icon: SiTailwindcss, color: "text-cyan-400" },
+        { name: "JavaScript", icon: FaJs, color: "text-yellow-400" }
+      ],
+      features: [
+        "Instant messaging for concurrent users",
+        "JWT-based private session security",
+        "Bcrypt password hashing",
+        "Responsive cross-device UI"
+      ],
+      gradient: "from-green-500 to-blue-600",
+      isFeatured: true
+    },
+    {
       title: "ORBIT AI",
       tagline: "AI with web search assistant",
-      description: "A sophisticated AI-powered search assistant that intelligently routes user queries through Gemini AI and Google Custom Search API. Features smart classification system that determines whether queries require AI-only responses, web search results, or both, optimizing response accuracy and relevance.",
+      description: "AI-powered search assistant that routes queries through Gemini AI and Google Custom Search with smart classification for AI-only, web, or hybrid answers.",
       image: "/api/placeholder/600/400",
       liveUrl: "https://orbit-aman.vercel.app/",
       githubUrl: "https://github.com/aman947860/orbit",
@@ -66,16 +90,13 @@ const Projects = () => {
         "Smart query classification & routing",
         "Real-time web search integration",
         "Markdown rendering support",
-        "Persistent chat history",
-        "Responsive design with animations",
-        "Copy-to-clipboard functionality"
+        "Persistent chat history"
       ],
-      gradient: "from-purple-500 to-pink-600",
-      isFeatured: true
+      gradient: "from-purple-500 to-pink-600"
     },
     {
       title: "AI Diet Planner",
-      description: "An intelligent diet planning application that uses AI to create personalized meal plans based on user preferences, dietary restrictions, and health goals.",
+      description: "Intelligent diet planning app that uses AI to create personalized meal plans from preferences, dietary restrictions, and health goals.",
       image: "/api/placeholder/600/400",
       liveUrl: "https://dietly-aman.vercel.app/",
       githubUrl: "https://github.com/aman947860/Dietly",
@@ -92,26 +113,6 @@ const Projects = () => {
         "Real-time dietary suggestions"
       ],
       gradient: "from-blue-500 to-purple-600"
-    },
-    {
-      title: "Chatify - Real-time Chat App",
-      description: "A full-stack real-time chat application built with MERN stack, featuring instant messaging, user authentication, and real-time notifications.",
-      image: "/api/placeholder/600/400",
-      liveUrl: "https://chatify-ampo.onrender.com/",
-      githubUrl: "https://github.com/aman947860/chatify",
-      technologies: [
-        { name: "React.js", icon: FaReact, color: "text-blue-400" },
-        { name: "Node.js", icon: FaNodeJs, color: "text-green-400" },
-        { name: "MongoDB", icon: SiMongodb, color: "text-green-500" },
-        { name: "Socket.io", icon: SiSocketdotio, color: "text-white" }
-      ],
-      features: [
-        "Real-time messaging",
-        "User authentication & authorization",
-        "Online/offline status",
-        "Message history & search"
-      ],
-      gradient: "from-green-500 to-blue-600"
     }
   ];
 
